@@ -11,7 +11,7 @@ export default function Hero() {
       </p>
       <div className="flex justify-center gap-4">
         <a
-          href="mailto:devangm115@gmail.com"
+          href="mailto:info@logibyte.tech"
           className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
         >
           Contact Me

@@ -114,6 +114,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📫 Contact
 
 For any questions or feedback, please reach out to:
-- Email: devangm115@gmail.com
+- Email: info@logibyte.tech
 - LinkedIn: [Devang Miskin](https://linkedin.com/in/devangmiskin)
 - Phone: +91 8140322233

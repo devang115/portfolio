@@ -108,6 +108,39 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="py-20">
+     
+      <section id="clients" className="mb-20">
+        <h2 className="text-2xl font-bold text-center mb-8">Clients</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a href="https://jdrealtors.co.in/" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg shadow hover:shadow-md p-6 transition">
+            <div className="font-semibold text-lg mb-2">JD Realtors</div>
+            <div className="text-gray-500 mb-1">Real Estate</div>
+            <div className="text-blue-600 underline">jdrealtors.co.in</div>
+          </a>
+          <a href="https://www.logibyte.tech/" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg shadow hover:shadow-md p-6 transition">
+            <div className="font-semibold text-lg mb-2">Logibyte</div>
+            <div className="text-gray-500 mb-1">IT Solutions</div>
+            <div className="text-blue-600 underline">logibyte.tech</div>
+          </a>
+          <a href="https://www.kvframearts.com/" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg shadow hover:shadow-md p-6 transition">
+            <div className="font-semibold text-lg mb-2">KV Frame Arts</div>
+            <div className="text-gray-500 mb-1">Creative Studio</div>
+            <div className="text-blue-600 underline">kvframearts.com</div>
+          </a>
+          <a href="https://www.anantindustriesgroup.com/" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg shadow hover:shadow-md p-6 transition">
+            <div className="font-semibold text-lg mb-2">Anant Industries</div>
+            <div className="text-gray-500 mb-1">Manufacturing</div>
+            <div className="text-blue-600 underline">anantindustriesgroup.com</div>
+          </a>
+          <a href="https://coneleinfra.com/" target="_blank" rel="noopener noreferrer" className="block bg-white rounded-lg shadow hover:shadow-md p-6 transition">
+            <div className="font-semibold text-lg mb-2">Conele Infra</div>
+            <div className="text-gray-500 mb-1">Infrastructure</div>
+            <div className="text-blue-600 underline">coneleinfra.com</div>
+          </a>
+        </div>
+      </section>
+
+      {/* Featured Projects */}
       <h2 className="text-3xl font-bold text-center mb-12">Featured Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (

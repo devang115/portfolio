@@ -26,7 +26,7 @@ function App() {
             <a href="https://linkedin.com/in/devangmiskin" className="text-gray-600 hover:text-gray-900">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:devangm115@gmail.com" className="text-gray-600 hover:text-gray-900">
+            <a href="mailto:info@logibyte.tech" className="text-gray-600 hover:text-gray-900">
               <Mail size={24} />
             </a>
             <a href="tel:+918140322233" className="text-gray-600 hover:text-gray-900">
